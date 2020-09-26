@@ -104,7 +104,7 @@ thead tr:last-child th:last-child {
 
 
 
-tbody tr:first-child th{
+tbody tr:first-child th:first-child{
   border-bottom-left-radius: 10px;
 }
 
