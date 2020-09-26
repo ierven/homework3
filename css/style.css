@@ -53,19 +53,25 @@ input:focus {
 
 table{
     border: 2px solid #000000;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
+  min-width: 125px;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
 .rowhead{
-
+  border: 2px solid #000000;
 }
 
 td{
-  
+  text-align: center;
+  border-top: 2px solid #000000;
 }
 
 tr{
@@ -76,7 +82,9 @@ tr{
 
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+
+}
 
 footer{
   min-height: 75px;
