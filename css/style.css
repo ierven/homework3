@@ -89,7 +89,7 @@ thead tr:first-child th:first-child{
 
 footer{
   min-height: 75px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width:100%;
   background:#000000;
