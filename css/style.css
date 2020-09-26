@@ -63,6 +63,8 @@ table{
   min-width: 125px;
   padding: 10px 10px 10px 10px;
   text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .rowhead{
