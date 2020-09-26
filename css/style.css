@@ -95,8 +95,17 @@ tbody tr:hover{
 }
 
 thead tr:first-child th:first-child{
-  border-radius: 10px;
+  border-top-left-radius: 10px;
 }
+
+thead tr:last-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+
+/* table td:last-child {
+
+} */
 
 footer{
   min-height: 75px;
