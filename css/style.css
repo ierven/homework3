@@ -46,11 +46,6 @@ a{
   text-decoration-style: wavy;
 }
 
-input:focus {
-  outline-width: 3px;
-  outline-color: #417243;
-}
-
 table{
     border: 2px solid #000000;
     margin-right: auto;
@@ -86,8 +81,14 @@ tr:nth-child(odd){
   background-color: transparent;
 }
 
-*{
+tbody tr:hover{
+  background-color: rgba(126, 8, 32);
+  opacity: .25;
+}
 
+*:focus {
+  outline-width: 3px;
+  outline-color: #417243;
 }
 
 thead tr:first-child th:first-child{
