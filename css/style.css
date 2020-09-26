@@ -61,7 +61,7 @@ table{
   background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
   text-transform: uppercase;
 }
 
@@ -73,10 +73,15 @@ table{
 td{
   text-align: center;
   border-top: 2px solid #000000;
+  padding: 10px 10px 10px 10px;
 }
 
-tr{
+tr:nth-child(even){
+  background-color: #D1D1D1;
+}
 
+tr:nth-child(odd){
+  background-color: transparent;
 }
 
 *{
